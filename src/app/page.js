@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react'
-import styles from './page.module.css'
+import styles from './page.module.scss'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 
@@ -23,7 +23,7 @@ export default function Home () {
   // }
   return (
     <main >
-   <h1>Hello World</h1>
+   <h1 className={styles.main}>Hello World</h1>
    {/* <Users name="Pallav"/>
    <Users age="23"/> */}
    {/* <button onClick={handleClick}>+</button>
